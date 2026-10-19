@@ -1,0 +1,18 @@
+[
+  {
+    "messageID": "1",
+    "messageNumber": 1,
+    "recipient": "+27682688993",
+    "messageText": "HELLO HOW ARE YOU DOING TODAY?",
+    "messageHash": "1:1:HELLOTODAY?",
+    "messageStatus": "Sent"
+  },
+  {
+    "messageID": "2",
+    "messageNumber": 2,
+    "recipient": "+27682688993",
+    "messageText": "WHAT WOULD YOU LIKE FOR LUNCH?",
+    "messageHash": "2:2:WHATLUNCH?",
+    "messageStatus": "Sent"
+  }
+]

@@ -38,6 +38,31 @@ there will be a YouTube video with a better detailed explanation of how the proj
 3. Follow the instructions displayed in the console.
 4. Enter the required registration and login information.
 
+# Java POE - Part 1 & Part 2: QuickChat Application
+
+## Overview
+This project is an advanced Java console application developed for the Programming 1A module (PROG5121). 
+**QuickChat** handles user registration, secure login authentication, message validation, string manipulation (generating message hashes and unique IDs), and JSON data storage.
+
+## Features Implemented
+### Part 1
+* **User Registration**: Username validation (must contain an underscore and be max 5 characters) and password complexity checks.
+* **Cell Phone Validation**: Regular expression (regex) checks ensuring South African phone numbers adhere to the `+27` format.
+* **Login Authentication**: Verification of user credentials with proper feedback messages.
+
+### Part 2
+* **Interactive Menu**: Numeric menu options allowing users to navigate through the application.
+* **Loop Structures**: Robust `while` and `for` loops to handle bulk message entry based on user specifications.
+* **String Manipulation**: Automatic generation of unique **Message IDs** and **Message Hashes** using substring and loop counters.
+* **JSON File Storage**: Successfully saves processed messages into a `messages.json` data file.
+* **Automated Unit Tests**: Comprehensive JUnit test classes (`LoginIT.java`) testing core application logic and data validation.
+
+## Technologies Used
+* **Java** (NetBeans IDE)
+* **JUnit** for Unit Testing
+* **JSON** for Data Persistence
+* **Git & GitHub** for Version Control and Code Management
+
 ## Author
 
 Marvel Akinwumi

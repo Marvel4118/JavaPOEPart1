@@ -35,29 +35,35 @@ public class Sendmessage {
             System.out.println("\n========== QUICKCHAT ==========");
             System.out.println("1. Send Messages");
             System.out.println("2. Show Recently Sent Messages");
-            System.out.println("3. Quit");
+            System.out.println("3. Stored Messages");
+            System.out.println("4. Quit");
             System.out.print("Choose an option: ");
 
             String option = input.nextLine();
 
-            switch (option) {
+           switch (option) {
 
-                case "1":
-                    sendMessages(input);
-                    break;
+    case "1":
+        sendMessages(input);
+        break;
 
-                case "2":
-                    displayMessages();
-                    break;
+    case "2":
+        displayMessages();
+        break;
 
-                case "3":
-                    running = false;
-                    System.out.println("Thank you for using QuickChat.");
-                    break;
+    case "3":
+        StoredMessages stored = new StoredMessages();
+        stored.showStoredMessagesMenu(input);
+        break;
 
-                default:
-                    System.out.println("Invalid option. Please choose 1, 2 or 3.");
-            }
+    case "4":
+        running = false;
+        System.out.println("Thank you for using QuickChat.");
+        break;
+
+    default:
+        System.out.println("Invalid option. Please choose 1, 2, 3 or 4.");
+}
         }
 
         input.close();
